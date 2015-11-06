@@ -1,0 +1,10 @@
+This enclosure is created using CATIA v5r14. It cannot be modified or imported using any open source software. Sorry for that, but this is my workflow. I included 3D printable files (.stl metric).
+
+The enclosure is designed to be 3D printed using any 3-axis 3D printer, and then snapped together. The PCB and enclosure have alignment notches. Tolerance between the parts is 0.5mm, which should yield a good snap-action and a snug fit.
+
+Printing notes:
+- The upper shell is 0.7mm thick, which is too thin for some 3D printing services using certain plastics
+- The upper shell has bend-action buttons built in. Make sure you do not overextrude, as this will weld the buttons to the rest of the shell and render them useless
+- The upper shell has small (1mm) holes to let the LEDs shine through. Some 3D printing slicers and printers use too few line segments on small circular features and will render these holes closed. A version with larger holes is included (fancontroller-v2-top-larger-holes). Do not print this if the small-hole version works well; you may risk breakages because the material between the holes gets really thin.
+- The upper shell has a 0.7mm thick face, so it is advised to use 0.1 or 0.15mm layer thickness. The default 0.35mm on many slicers may be a bit coarse and lead to ugly faces.
+- I have included pictures of the 3D model and the first prototype print (which, admittedly, isn't very pretty) to show how your printing result should look.

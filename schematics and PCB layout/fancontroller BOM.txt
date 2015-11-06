@@ -1,0 +1,19 @@
+====+  Parts List for Z:\ELECTR~1\FANCON~1\FANCON~1.DSN  +====
+
+T1                            1   2N7002,2N7002 N-mosfet,SOT-323,1894711
+U2                            1   ATTiny24A/44A/84A,8-bit MCU,SOP-14,2425140
+K3                            1   AVRISPmkII,AVRISP mkII ISP header,3x2HDR-edgemount,3418492
+DD1                           1   BAT54S,Dual schottky diode,SOT-323,1081212
+C1,C2                         2   C,Capacitor,C0603R,1759039,1u
+S1                            1   DOWN,DPST switch,smallswitch-smd,2103642
+K1,K2                         2   FAN4,4-pin fan connector,4-pin fan connector,2313705
+LOGO                          1   JI,Connection Input,efficientelectronics_small,NO FARNELL
+U1                            1   L78L05,STMicroelectronics L78L05 LDO 5V,SOT-89,2112604
+D1,D2,D3,D4                   4   LED,Light-Emitting Diode,LED0603R,2426228,,..,..,..,..,..,..,..,..,..,..
+R5,R6                         2   RESISTOR,Resistor,R0402R,2072519,100k
+R1,R2,R3,R4,R7                5   RESISTOR,Resistor,R0402R,2447178,470R
+S3                            1   SELECT,DPST switch,smallswitch-smd,2103642
+J1,J2,J3,J4,J5,J6,J7,J8,
+J9                            9   TP,Connection Input,test_dot,NO FARNELL
+S2                            1   UP,DPST switch,smallswitch-smd,2103642
+U3                            1   jstxh2-ra,JST XH 2-way connector (right angle),jstxh2,1516276
