@@ -1,3 +1,5 @@
+This document is a direct export from TinyCAD. For a Farnell/element14 Quick Paste-compatible list, refer to BOM-element14.txt
+
 ====+  Parts List for Z:\ELECTR~1\FANCON~1\FANCON~1.DSN  +====
 
 T1                            1   2N7002,2N7002 N-mosfet,SOT-323,1894711
