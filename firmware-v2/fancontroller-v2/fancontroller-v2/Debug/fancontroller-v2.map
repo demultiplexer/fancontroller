@@ -1,9 +1,5 @@
 Archive member included because of file (symbol)
 
-c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
-                              fancontroller-v2.o (__mulhi3)
-c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
-                              fancontroller-v2.o (__udivmodhi4)
 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
                               c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn24a.o (exit)
 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_copy_data.o)
@@ -15,14 +11,6 @@ c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-t
 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack\libc.a(eewr_byte_attiny24a.o)
                               fancontroller-v2.o (__eewr_byte_tn24a)
 
-Allocating common symbols
-Common symbol       size              file
-
-TACH_LOW_SETTING    0x2               fancontroller-v2.o
-TACH_HIGH_SETTING   0x2               fancontroller-v2.o
-PWM_LOW_SETTING     0x2               fancontroller-v2.o
-PWM_HIGH_SETTING    0x2               fancontroller-v2.o
-
 Discarded input sections
 
  .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn24a.o
@@ -30,34 +18,6 @@ Discarded input sections
  .text          0x00000000        0x0 fancontroller-v2.o
  .data          0x00000000        0x0 fancontroller-v2.o
  .bss           0x00000000        0x0 fancontroller-v2.o
- .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .text.libgcc.div
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .text.libgcc.prologue
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .text.libgcc.builtins
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .text.libgcc.fmul
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .text.libgcc.fixed
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .text.libgcc.mul
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .text.libgcc.prologue
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .text.libgcc.builtins
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .text.libgcc.fmul
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
- .text.libgcc.fixed
-                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
@@ -228,7 +188,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x7b2
+.text           0x00000000      0x3e8
  *(.vectors)
  .vectors       0x00000000       0x22 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn24a.o
                 0x00000000                __vector_default
@@ -285,12 +245,16 @@ END GROUP
  *(.init9)
  *(.text)
  .text          0x00000054        0x2 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack/crttn24a.o
+                0x00000054                __vector_1
                 0x00000054                __vector_12
                 0x00000054                __bad_interrupt
+                0x00000054                __vector_6
+                0x00000054                __vector_11
                 0x00000054                __vector_13
                 0x00000054                __vector_7
                 0x00000054                __vector_5
                 0x00000054                __vector_4
+                0x00000054                __vector_9
                 0x00000054                __vector_15
                 0x00000054                __vector_14
                 0x00000054                __vector_10
@@ -298,56 +262,35 @@ END GROUP
                 0x00000056                . = ALIGN (0x2)
  *(.text.*)
  .text.load_settings_from_eeprom
-                0x00000056      0x108 fancontroller-v2.o
+                0x00000056       0xda fancontroller-v2.o
                 0x00000056                load_settings_from_eeprom
  .text.initialize_hardware
-                0x0000015e       0x46 fancontroller-v2.o
-                0x0000015e                initialize_hardware
+                0x00000130       0x40 fancontroller-v2.o
+                0x00000130                initialize_hardware
  .text.startup.main
-                0x000001a4      0x19c fancontroller-v2.o
-                0x000001a4                main
- .text.__vector_11
-                0x00000340       0x4c fancontroller-v2.o
-                0x00000340                __vector_11
- .text.__vector_9
-                0x0000038c       0x16 fancontroller-v2.o
-                0x0000038c                __vector_9
- .text.__vector_6
-                0x000003a2       0x16 fancontroller-v2.o
-                0x000003a2                __vector_6
- .text.__vector_2
-                0x000003b8       0x58 fancontroller-v2.o
-                0x000003b8                __vector_2
- .text.__vector_3
-                0x00000410       0x34 fancontroller-v2.o
-                0x00000410                __vector_3
- .text.finalize_measurements
-                0x00000444      0x188 fancontroller-v2.o
-                0x00000444                finalize_measurements
+                0x00000170      0x112 fancontroller-v2.o
+                0x00000170                main
  .text.__vector_8
-                0x000005cc       0xd8 fancontroller-v2.o
-                0x000005cc                __vector_8
- .text.__vector_1
-                0x000006a4       0x94 fancontroller-v2.o
-                0x000006a4                __vector_1
- .text.libgcc.mul
-                0x00000738       0x22 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_mulhi3.o)
-                0x00000738                __mulhi3
- .text.libgcc.div
-                0x0000075a       0x28 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_udivmodhi4.o)
-                0x0000075a                __udivmodhi4
+                0x00000282       0x6e fancontroller-v2.o
+                0x00000282                __vector_8
+ .text.__vector_2
+                0x000002f0       0x94 fancontroller-v2.o
+                0x000002f0                __vector_2
+ .text.__vector_3
+                0x00000384       0x34 fancontroller-v2.o
+                0x00000384                __vector_3
  .text.avr-libc
-                0x00000782       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack\libc.a(eerd_byte_attiny24a.o)
-                0x00000782                __eerd_byte_tn24a
+                0x000003b8       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack\libc.a(eerd_byte_attiny24a.o)
+                0x000003b8                __eerd_byte_tn24a
  .text.avr-libc
-                0x00000792       0x1c c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack\libc.a(eewr_byte_attiny24a.o)
-                0x00000792                __eewr_byte_tn24a
-                0x00000794                __eewr_r18_tn24a
-                0x000007ae                . = ALIGN (0x2)
+                0x000003c8       0x1c c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr25/tiny-stack\libc.a(eewr_byte_attiny24a.o)
+                0x000003c8                __eewr_byte_tn24a
+                0x000003ca                __eewr_r18_tn24a
+                0x000003e4                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000007ae        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
-                0x000007ae                _exit
-                0x000007ae                exit
+ .fini9         0x000003e4        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
+                0x000003e4                _exit
+                0x000003e4                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -366,84 +309,65 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000007ae        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
+ .fini0         0x000003e4        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1061/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr25/tiny-stack\libgcc.a(_exit.o)
  *(.fini0)
-                0x000007b2                _etext = .
+                0x000003e8                _etext = .
 
-.data           0x00800060       0x2c load address 0x000007b2
+.data           0x00800060       0x34 load address 0x000003e8
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
  .data.tach_lut
                 0x00800060       0x28 fancontroller-v2.o
                 0x00800060                tach_lut
- .data.PWM_HIGH_offset
-                0x00800088        0x1 fancontroller-v2.o
-                0x00800088                PWM_HIGH_offset
- .data.PWM_LOW_offset
-                0x00800089        0x1 fancontroller-v2.o
-                0x00800089                PWM_LOW_offset
- .data.TACH_HIGH_offset
-                0x0080008a        0x1 fancontroller-v2.o
-                0x0080008a                TACH_HIGH_offset
- .data.TACH_LOW_offset
-                0x0080008b        0x1 fancontroller-v2.o
-                0x0080008b                TACH_LOW_offset
+ .data.phys_settings
+                0x00800088        0x8 fancontroller-v2.o
+                0x00800088                phys_settings
+ .data.eeprom_settings
+                0x00800090        0x4 fancontroller-v2.o
+                0x00800090                eeprom_settings
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
-                0x0080008c                . = ALIGN (0x2)
-                0x0080008c                _edata = .
-                0x0080008c                PROVIDE (__data_end, .)
+                0x00800094                . = ALIGN (0x2)
+                0x00800094                _edata = .
+                0x00800094                PROVIDE (__data_end, .)
 
-.bss            0x0080008c       0x18
-                0x0080008c                PROVIDE (__bss_start, .)
+.bss            0x00800094        0xc
+                0x00800094                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
+ .bss.temp      0x00800094        0x1 fancontroller-v2.o
+                0x00800094                temp
+ .bss.i         0x00800095        0x1 fancontroller-v2.o
+                0x00800095                i
  .bss.button_pressed
-                0x0080008c        0x1 fancontroller-v2.o
-                0x0080008c                button_pressed
+                0x00800096        0x1 fancontroller-v2.o
+                0x00800096                button_pressed
  .bss.CURRENT_SETTING
-                0x0080008d        0x1 fancontroller-v2.o
-                0x0080008d                CURRENT_SETTING
- .bss.meas_cycle
-                0x0080008e        0x1 fancontroller-v2.o
-                0x0080008e                meas_cycle
- .bss.currently_measuring
-                0x0080008f        0x1 fancontroller-v2.o
-                0x0080008f                currently_measuring
- .bss.meas      0x00800090        0x2 fancontroller-v2.o
-                0x00800090                meas
- .bss.pwm_period_m
-                0x00800092        0x2 fancontroller-v2.o
-                0x00800092                pwm_period_m
- .bss.pwm_duty  0x00800094        0x2 fancontroller-v2.o
-                0x00800094                pwm_duty
+                0x00800097        0x1 fancontroller-v2.o
+                0x00800097                CURRENT_SETTING
  .bss.pwm_duty_m
-                0x00800096        0x2 fancontroller-v2.o
-                0x00800096                pwm_duty_m
- .bss.tach_period
                 0x00800098        0x2 fancontroller-v2.o
-                0x00800098                tach_period
- .bss.tach_period_m
-                0x0080009a        0x2 fancontroller-v2.o
-                0x0080009a                tach_period_m
+                0x00800098                pwm_duty_m
+ .bss.lasttach  0x0080009a        0x2 fancontroller-v2.o
+                0x0080009a                lasttach
+ .bss.tach      0x0080009c        0x2 fancontroller-v2.o
+                0x0080009c                tach
+ .bss.tach_period
+                0x0080009e        0x2 fancontroller-v2.o
+                0x0080009e                tach_period
  *(COMMON)
- COMMON         0x0080009c        0x8 fancontroller-v2.o
-                0x0080009c                TACH_LOW_SETTING
-                0x0080009e                TACH_HIGH_SETTING
-                0x008000a0                PWM_LOW_SETTING
-                0x008000a2                PWM_HIGH_SETTING
-                0x008000a4                PROVIDE (__bss_end, .)
-                0x000007b2                __data_load_start = LOADADDR (.data)
-                0x000007de                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x008000a0                PROVIDE (__bss_end, .)
+                0x000003e8                __data_load_start = LOADADDR (.data)
+                0x0000041c                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008000a4        0x0
-                0x008000a4                PROVIDE (__noinit_start, .)
+.noinit         0x008000a0        0x0
+                0x008000a0                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008000a4                PROVIDE (__noinit_end, .)
-                0x008000a4                _end = .
-                0x008000a4                PROVIDE (__heap_start, .)
+                0x008000a0                PROVIDE (__noinit_end, .)
+                0x008000a0                _end = .
+                0x008000a0                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -502,38 +426,38 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x70
+.debug_aranges  0x00000000       0x48
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x70 fancontroller-v2.o
+                0x00000000       0x48 fancontroller-v2.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0x4a8
+.debug_info     0x00000000      0x2b4
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x4a8 fancontroller-v2.o
+ .debug_info    0x00000000      0x2b4 fancontroller-v2.o
 
-.debug_abbrev   0x00000000      0x22c
+.debug_abbrev   0x00000000      0x148
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x22c fancontroller-v2.o
+ .debug_abbrev  0x00000000      0x148 fancontroller-v2.o
 
-.debug_line     0x00000000      0x366
+.debug_line     0x00000000      0x21c
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x366 fancontroller-v2.o
+ .debug_line    0x00000000      0x21c fancontroller-v2.o
 
-.debug_frame    0x00000000      0x1ac
+.debug_frame    0x00000000       0xd8
  *(.debug_frame)
- .debug_frame   0x00000000      0x1ac fancontroller-v2.o
+ .debug_frame   0x00000000       0xd8 fancontroller-v2.o
 
-.debug_str      0x00000000      0x37a
+.debug_str      0x00000000      0x23a
  *(.debug_str)
- .debug_str     0x00000000      0x37a fancontroller-v2.o
-                                0x3ae (size before relaxing)
+ .debug_str     0x00000000      0x23a fancontroller-v2.o
+                                0x273 (size before relaxing)
 
-.debug_loc      0x00000000      0x329
+.debug_loc      0x00000000      0x14b
  *(.debug_loc)
- .debug_loc     0x00000000      0x329 fancontroller-v2.o
+ .debug_loc     0x00000000      0x14b fancontroller-v2.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -553,9 +477,9 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0x60
+.debug_ranges   0x00000000       0x38
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x60 fancontroller-v2.o
+ .debug_ranges  0x00000000       0x38 fancontroller-v2.o
 
 .debug_macro
  *(.debug_macro)
