@@ -1,5 +1,6 @@
 /* Macros */
 #define		TIMER_CLKSEL_DIV1				(1 << CS10)
+#define		TIMER_CLKSEL_DIV8				(1 << CS11)
 #define		TIMER_CLKSEL_DIV64				(1 << CS10) | (1 << CS11)
 #define		TIMER_ENABLE_OVF_INTERRUPT		(1 << TOIE1)
 #define		TIMER_ENABLE_COMPA_INTERRUPT	(1 << OCIE0A)
