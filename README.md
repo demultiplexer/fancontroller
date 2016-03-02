@@ -37,25 +37,4 @@ First of all, you can [buy it from me](https://www.tindie.com/stores/mux/). Barr
  
  # Firmware hacking
  
- The firmware is a little bit complicated at first signt, so here is a short introduction on how it works. At its core, it is really easy to understand. The MCU stores its settings in EEPROM and loads this on boot. After some peripheral setup the program just keeps repeating the button handling procedure. Both tachometer and PWM signal generation happens in the timer0 and timer1 interrupt handlers, respectively. Here is the main program flow visually:
- 
-![](/firmware-flowchart-overview.png)
- 
- Note that the 'Select' button is actually a reset button; I'm using this trick to cleverly get another I/O pin. So every time you 'select' to move to the next setting, you're actually resetting the microcontroller. This is why the current setting is incremented on boot. 
- 
-Hidden in this firmware overview is the measurement cycle. Every once in a while (approx. 2 times per second), the timer1 interrupts are taken over by the measurement cycle. This is a bit complicated, so let's start with an image:
-
-![](/firmware-measurementcycle.png)
-
-This measurement cycle iterates through a total of 7 steps:
- - Find the first rising edge of the TACH signal from the fan
- - Find the very next rising edge of the TACH signal from the fan -> store the difference (this is the tachometer frequency)
- - Find the first rising edge of the PWM signal from the motherboard
- - Find the next rising edge of the PWM signal from the motherboard -> store the difference (this is the PWM frequency)
- - Find the next FALLING edge of the PWM signal from the motherboard -> store the difference (this is the PWM duty cycle)
- - Scale these values in a way that makes sense to the microcontroller
- - do some math with the measured values and the user's settings to create the actual output values
- 
- By doing edge detection, I can assure phase and frequency correct measurement. 
- 
- The firmware is highly commented and purposefully NOT very math- or size-optimized. It can be much more compact, but the way I wrote it is a lot easier to modify. This is actually the third complete rewrite of the firmware; I've tried other methods of measuring and outputting waveforms. This came out as the most 'moddable' and understandable, as well as sufficiently high-performance even on such a low-end microcontroller. You should have no trouble identifying and modifying parts of the code to your liking, if you wish.
+I highly recommend watching the in-depth technical explanation videos on my Youtube channel: https://youtube.com/PowerElectronicsBlog
