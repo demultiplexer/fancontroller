@@ -2,14 +2,6 @@
 
 ![Fan controller PCB and bottom printed enclosure shell (top shell removed)](/fancontroller-withoutcover-vignette.jpg)
 
-#IMPOTANT NOTICE: DO NOT USE THE FIRMWARE VERSION PUBLISHED HERE YET
-
-I am currently investigating an apparent bug where some motherboards have trouble with the fact that this board occasionally (during a measurement cycle) does not output a tachometer pulse to the motherboard. Or maybe another bug. As long as this has not been fixed, DO NOT use the current firmware version. The hardware has no issues.
-
-The firmware has now been fixed and verified in hardware and will be pushed before February 11th, 2016.
-
-#END OF NOTICE
-
 This is an open source (commons) hardware project to create a fully programmable computer fan controller. The function of this board is to allow the user to both modify the PWM signal from the motherboard ("how fast the motherboard tells the fan to go") as well as the tachometer signal from the fan ("how fast the fan says it's spinning").
 
 One application of this device is in server equipment that require fans to be present and spinning at a certain speed. These fans are often noisy and it helps to replace them with slower-spinning, quieter alternatives. However, motherboard firmware often rejects these fans. With this fan controller, the fan can pretend it's rotating faster than it really is.
